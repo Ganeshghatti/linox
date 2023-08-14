@@ -9,7 +9,9 @@ export default function Navbar() {
       <ul>
         <li>Services</li>
         <li>
-          <Link to="/market" style={{textDecoration:"none"}}>Market Focus Hub</Link>
+          <Link to="/market" style={{ textDecoration: "none" }}>
+            Market Focus Hub
+          </Link>
         </li>
         <li>About</li>
       </ul>
