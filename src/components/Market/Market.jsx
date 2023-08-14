@@ -110,37 +110,13 @@ export default function Market() {
     <section className="market">
       <Navbar />
       <div className="market-carousel">
-        <CarouselProvider
-          naturalSlideWidth={100}
-          naturalSlideHeight={40}
-          totalSlides={3}
-        >
-          <Slider>
-            <Slide index={0}>
-              <img
-                src="/Assets/market/oracle1.jpg"
-                alt="y"
-                className="market-carousel-oracle1"
-              />
-            </Slide>
-            <Slide index={1}>
-              <img
-                src="/Assets/market/oracle1.jpg"
-                alt="y"
-                className="market-carousel-oracle1"
-              />
-            </Slide>
-            <Slide index={2}>
-              <img
-                src="/Assets/market/oracle1.jpg"
-                alt="y"
-                className="market-carousel-oracle1"
-              />
-            </Slide>
-          </Slider>
-        </CarouselProvider>
+        <img
+          src="/Assets/market/img3.png"
+          alt="y"
+          className="market-carousel-oracle1"
+        />
       </div>
-      <p>Title</p>
+      <p className="market-title-text">Title</p>
       <div className="market-faq-container">
         <Faq data={data} styles={styles} />
       </div>

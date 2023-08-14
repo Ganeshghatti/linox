@@ -10,16 +10,16 @@
   color: #1f3557;
   letter-spacing: 1.2px;
   border-radius: 90px;
-  padding: 7px 13px;
-  font-size: 12.5px;
+  padding: 10px 15px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 12.5px;
   text-decoration: none;
-  width: 70px;
+  width: 110px;
 }
 .Hero {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   background-color: #d8e6f1;
   @include flex(row);
   align-items: center;

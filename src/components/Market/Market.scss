@@ -22,16 +22,28 @@
   width: 100vw;
   @include flex(column);
   align-items: center;
+  justify-content: center;
   gap: 25px;
   .market-carousel {
-    width: 100vw;
+    .market-carousel-oracle1{
+      width: 350px;
+    }
+  }
+  .market-title-text {
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 50px;
+    color: #1f3557;
+    font-family: "Roboto", sans-serif;
   }
 }
-.market-carousel-oracle1{
-    object-fit: contain;
-    width: 100vw;
+.market-carousel-oracle1 {
+  object-fit: contain;
+  width: 100vw;
 }
-.market-faq-container{
+.market-faq-container {
   width: 70vw;
 }
 .faq-container {
