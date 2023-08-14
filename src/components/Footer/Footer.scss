@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap");
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+footer {
+  width: 100vw;
+  @include flex(column);
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  background-color: #c6d8e6;
+  margin: 0;
+  p:nth-child(1) {
+    color: #1f3557;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    margin-bottom: 0;
+  }
+  p:nth-child(2) {
+    color: #1f3557;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    margin-top: 0;
+  }
+}
+// Footer.scss
+.rc-footer {
+  .rc-footer-column-title {
+    color: #ff0000; /* Replace with your desired text color */
+  }
+
+  .rc-footer-item-description {
+    color: #0000ff; /* Replace with your desired text color */
+  }
+}

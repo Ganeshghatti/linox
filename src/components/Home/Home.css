@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.Hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d8e6f1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (min-width: 780px) and (max-width: 1200px) {
+  .Hero {
+    max-height: 60vh;
+  }
+}
+@media (max-width: 780px) {
+  .Hero {
+    flex-direction: column;
+    height: auto;
+  }
+}
+.Hero .hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  gap: 15px;
+  height: 100vh;
+}
+@media (max-width: 1200px) {
+  .Hero .hero-left {
+    width: 55vw;
+  }
+}
+@media (max-width: 780px) {
+  .Hero .hero-left {
+    width: 100vw;
+  }
+}
+.Hero .hero-left .hero-welcome-batch {
+  background-color: #c6d8e6;
+  color: #1f3557;
+  letter-spacing: 1.2px;
+  border-radius: 90px;
+  padding: 7px 13px;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 12.5px;
+  text-decoration: none;
+  width: 70px;
+  margin-top: 20vh;
+}
+@media (max-width: 1200px) {
+  .Hero .hero-left .hero-welcome-batch {
+    margin: 0 0 0 5vw;
+  }
+}
+.Hero .hero-left .hero-caousel-container {
+  width: 45vw;
+  margin: 0 0 0 5vw;
+  align-items: center;
+}
+.Hero .hero-left .hero-caousel-container .hero-title {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  color: #1f3557;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+@media (max-width: 1200px) {
+  .Hero .hero-left .hero-caousel-container .hero-title {
+    margin: 0 0 0 5vw;
+    font-size: 45px;
+  }
+}
+@media (max-width: 450px) {
+  .Hero .hero-left .hero-caousel-container .hero-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.Hero .hero-left .hero-caousel-container .hero-description {
+  color: #7f889e;
+  font-size: 16px;
+  max-width: 600px;
+  margin-top: 16px;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+@media (max-width: 1200px) {
+  .Hero .hero-left .hero-caousel-container .hero-description {
+    margin: 0 0 0 5vw;
+    font-size: 12px;
+    padding: 0 15px 0 0;
+  }
+}
+.Hero .hero-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50vw;
+  justify-content: center;
+}
+@media (max-width: 1200px) {
+  .Hero .hero-right {
+    width: 45vw;
+  }
+}
+@media (max-width: 780px) {
+  .Hero .hero-right {
+    width: 100vw;
+  }
+}
+.Hero .hero-right .hero-img {
+  width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+  border-radius: 15px;
+}
+@media (max-width: 1200px) {
+  .Hero .hero-right .hero-img {
+    width: 90%;
+  }
+}
+
+* {
+  margin: 0;
+}/*# sourceMappingURL=Home.css.map */

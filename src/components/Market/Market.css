@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
+.market {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.market .market-carousel {
+  width: 100vw;
+}
+
+.market-carousel-oracle1 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100vw;
+}
+
+.market-faq-container {
+  width: 70vw;
+}
+
+.faq-container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgba(11, 25, 54, 0.831372549);
+  box-shadow: 0px 10px 20px #010a12;
+}
+
+.faq-body {
+  padding: 30px;
+  padding-top: 10px;
+  border-radius: 30px;
+}/*# sourceMappingURL=Market.css.map */

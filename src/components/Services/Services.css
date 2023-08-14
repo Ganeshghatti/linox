@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.services {
+  width: 100vw;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.services .services-intro-text {
+  background-color: #c6d8e6;
+  color: #1f3557;
+  letter-spacing: 1.2px;
+  border-radius: 90px;
+  padding: 7px 13px;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 12.5px;
+  text-decoration: none;
+  width: 70px;
+  text-align: center;
+}
+.services .services-title-text {
+  font-size: 50px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  line-height: 50px;
+  color: #1f3557;
+  font-family: "Roboto", sans-serif;
+}
+.services .Application-Support-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3vh 0 0 0;
+  gap: 15px;
+}
+.services .Application-Support-container .Application-Support-container-title {
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.services .Application-Support-container .Application-Support-container-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: auto;
+  width: 1000px;
+}
+.services .Application-Support-container .Application-Support-container-cards .Application-Support-container-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px 10px 20px 35px;
+  gap: 10px;
+}
+.services .Application-Support-container .Application-Support-container-cards .Application-Support-container-card .Application-Support-container-card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.services .Application-Support-container .Application-Support-container-cards .Application-Support-container-card .Application-Support-container-card-description {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.services .Application-Support-container .Application-Support-container-cards .Application-Support-container-card hr {
+  margin: 10px 0;
+}
+.services .Application-Support-container .Application-Support-container-cards .Application-Support-container-card .Application-Support-container-card-button {
+  color: #1f3557;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 7px;
+  padding-left: 12px;
+  border-radius: 56px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 7px;
+  background-color: #d8e6f1;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  width: 125px;
+}
+.services .Implementation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3vh 0 0 0;
+  gap: 15px;
+}
+.services .Implementation-container .Implementation-container-title {
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.services .Implementation-container .Implementation-container-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: auto;
+  width: 1000px;
+}
+.services .Implementation-container .Implementation-container-cards .Implementation-container-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px 10px 20px 35px;
+  gap: 10px;
+}
+.services .Implementation-container .Implementation-container-cards .Implementation-container-card .Implementation-container-card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.services .Implementation-container .Implementation-container-cards .Implementation-container-card .Implementation-container-card-description {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.services .Implementation-container .Implementation-container-cards .Implementation-container-card hr {
+  margin: 10px 0;
+}
+.services .Implementation-container .Implementation-container-cards .Implementation-container-card .Implementation-container-card-button {
+  color: #1f3557;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 7px;
+  padding-left: 12px;
+  border-radius: 56px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 7px;
+  background-color: #d8e6f1;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  width: 125px;
+}/*# sourceMappingURL=Services.css.map */
